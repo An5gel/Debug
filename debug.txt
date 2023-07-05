@@ -1,0 +1,64 @@
+DEBUGGING
+Debugging is the process and finding and solving errors in code.
+
+A BUG
+A bug is a gliche in software, an error in code that prevents it
+ to perform from the way its intended to
+
+TYPES OF BUGS
+-syntax errors:
+    These occur when code does not follow the syntactical rules.
+    eg"<div classhome><div>,mistyping etc
+-logic/logical errors:
+    These occur when the stepstaken to perform the task correctly 
+    are not well done eg an infinite loop
+-design errors:
+     That is a bug that is carried from the designers to the actual
+     implementation of the code
+     these are bugs caused by poor or inadequate design decisions.
+     eg bad/poor user interface,wrong data TYPES
+-runtime errors:
+    these occur during the execution of the code.they cant be noticed 
+    until the code is run eg calling a value that doesnt exist, deviding
+     a number by zero,adding a string to an integer
+    
+ WHY DEBUG?
+-To removs errors in code
+-To save resources; time and money
+-To improve productivity and effiency of the developer
+
+HOW TO DEBUG
+Prior
+Planning
+Prevents
+poor
+performance
+
+DEBUGGING PRINCIPLES
+=>Bugs caught early are the  easiest to fix because the details are fresh 
+in your mind and you know exactly where to look
+=>once bugs escape the become very hard to find due to a larger
+code base to search.you may also not have the details of the code
+
+DEBUGGING CYCLE
+STEP1; Codding(Writting your code)
+STEP2; Testing(checking functionality)
+STEP3; If the code is working as intended,proceed to develop code
+STEP4; If the code isnt working then go on to Debugging
+STEP5; Then repeat cycle as they all go
+
+A BUG SEEKING CYCLE
+Difference between debugging and Testing
+debugging is what you do to fix code with error while testing is 
+what you do to break the code
+
+STEPS OF DEBUGGING
+1.Plan your attack
+2.Backup your files ie using version control or git hub to keep 
+truck of changes 
+3.Isolate the errored code/modules ie commenting it out
+4.Finding the error code/ACTUAL LINE OF CODE WITH error
+5.fix the error dont patch it/dont try to just make it work
+6. test the fix
+7.look for similar bugs
+
