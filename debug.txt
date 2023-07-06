@@ -62,3 +62,41 @@ truck of changes
 6. test the fix
 7.look for similar bugs
 
+OTHER STEPS AND STRATEGIES
+-RE PROODUCIBILITY;
+        BEING ABLE TO REPRODUCE IT- you need to understand the 
+        cause and effect before you change it
+-REDUCTION;
+        finding the simplest test that exibit the bug coz bugs
+         are not random , the come from somewhere in the code
+-DEDUCTION;
+        FIND OUT WHAT COMPONENTS ARE INVOLVED observe and deduce
+        understanding what the problem is and wa da code is doing
+        the difference btn a working code and none working
+ -PAIR PROGRAMMING;
+        SOME ONE ELSE MIGHT BE ABLE TO SEE WRONG assumptions
+        or mistakes you have made 
+        helps youto explain and understand your code in better 
+        details 
+   -leveraging experience from others
+
+PREVENTING BUGS
+1. WRITE easy and clean  dry code; indent your code
+2. comment your code helps you know wat your code is about
+3. make one change at a time
+4. test your CODE
+         -the unit test
+            testfunctional blocks of your code
+          -the intergration test
+            test interaction btn functional blocks of your code
+          -test with invalid data and valid data 
+
+5.defensive proggramming
+        adding error checkincode and throw in exceptions
+6. priotising features to omit
+7.incubating ;take a break
+8. Brainstorm    
+
+TOOLS
+*Break points;
+    these help you see which part of the code is bugged
